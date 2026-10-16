@@ -1,4 +1,4 @@
-# Housing Affordability Dynamics: Price-to-Rent Ratios Across U.S. Metro Areas, 2020–August 2026
+# Housing Affordability Dynamics: Price-to-Rent Ratios Across U.S. Metro Areas, 2020-August 2026
 
 ## Project overview
 
@@ -14,7 +14,7 @@ Using Zillow Research data, the analysis calculates price-to-rent ratios, compar
 - The median price-to-rent ratio peaked at approximately 18.1 in late 2022 before declining to around 17.2 by August 2026.
 - McAllen, Texas, had the largest home-price and rent growth divergence among the top 10 metros identified.
 - San Jose, California, had the largest increase in the price-to-rent ratio among the top 10 metros identified.
-- Rent growth was positively associated with home-value growth 12 months later, but the regression had limited explanatory power (\(R^2 = 0.165\)).
+- Rent growth was positively associated with home-value growth 12 months later, but the regression had limited explanatory power ($R^2 = 0.165$).
 - K-means clustering identified three groups of metropolitan areas based on cumulative home-price and rent growth.
 
 These findings describe associations and trends, not causal effects.
@@ -42,14 +42,10 @@ Housing-Affordability-Analysis/
 ├── Data/
 │   ├── Metro_zhvi.csv
 │   └── Metro_zori.csv
-├── report/
-│   └── Housing_Affordability_Report.pdf
-├── presentation/
-│   └── Housing_Affordability_Presentation.pdf
-├── output/
+├── Housing_Affordability_Report.pdf
+├── Housing_Affordability_Presentation.pdf
 ├── Mini_Project_Thao_Nguyen.ipynb
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ## Required software and packages
@@ -110,4 +106,3 @@ Run the notebook from the repository root so that the relative paths to the `Dat
 ## References
 
 - Zillow Research. *Housing Data*. https://www.zillow.com/research/data/
-- Additional external sources, code, images, and ideas used in the notebook, report, and presentation should be cited in the relevant materials.
